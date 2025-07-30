@@ -44,7 +44,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-deprecation": "^1.2.1",
     "mocha": "8.x",
-    "nodemon": "^2.0.12",
+    "nodemon": "^2.0.22",
     "prettier": "^2.3.2",
     "sinon": "^11.1.2",
     "ts-node": "^10.9.2",
