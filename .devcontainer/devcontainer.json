@@ -8,7 +8,7 @@
         }
     },
     "forwardPorts": [8080, 7233],
-    "postStartCommand": "temporal server start-dev --ui-port 8080",
+    "postStartCommand": "temporal server start-dev --ui-port 8080 --dynamic-config-value frontend.workerVersioningWorkflowAPIs=true --dynamic-config-value system.enableDeploymentVersions=true",
     "remoteEnv": {
         "PROMPT_DIRTRIM": "2"
     }
